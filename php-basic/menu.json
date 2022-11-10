@@ -1,0 +1,832 @@
+{
+    "pageProps": {
+        "pageTitle": "メニュー｜ここのうどんは、生きている。丸亀製麺",
+        "pageDescription": "丸亀製麺は全店に製麺機を置いて、打ち立て、茹でたての味を実現。 国産小麦100％にこだわった讃岐うどんのおいしさを、心ゆくまでご堪能ください。",
+        "pageOgImages": [
+            {
+                "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/d0a52dfafec6424695a72524a24ff06b/og_menu.jpg",
+                "height": 630,
+                "width": 1200
+            }
+        ],
+        "navigation": {
+            "createdAt": "2022-04-25T08:59:58.008Z",
+            "updatedAt": "2022-09-05T07:24:46.398Z",
+            "publishedAt": "2022-05-09T10:24:31.486Z",
+            "revisedAt": "2022-09-05T07:24:46.398Z",
+            "logo_title": "ここのうどんは、生きている。丸亀製麺",
+            "main_navigation": [
+                {
+                    "fieldId": "item",
+                    "title": "メニュー",
+                    "link": "/menu/",
+                    "target": false
+                },
+                {
+                    "fieldId": "item",
+                    "title": "こだわり",
+                    "link": "/concept/",
+                    "target": false
+                },
+                {
+                    "fieldId": "item",
+                    "title": "お店を探す",
+                    "link": "/shop/",
+                    "target": false
+                },
+                {
+                    "fieldId": "item",
+                    "title": "お持ち帰り",
+                    "link": "/shop/omochikaeri/",
+                    "target": false
+                },
+                {
+                    "fieldId": "item",
+                    "title": "公式アプリ",
+                    "link": "/shop/app/",
+                    "target": false
+                }
+            ],
+            "mobile_navigation": {
+                "fieldId": "mobile_navigation",
+                "main": [
+                    {
+                        "fieldId": "list",
+                        "head": [
+                            {
+                                "fieldId": "item",
+                                "title": "メニュー",
+                                "link": "/menu/",
+                                "target": false
+                            }
+                        ],
+                        "sub": [
+                            {
+                                "fieldId": "item",
+                                "title": "うどん",
+                                "link": "/menu/udon/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "うどん弁当",
+                                "link": "/menu/udonbento/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "天ぷら",
+                                "link": "/menu/tempura/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "ご飯もの",
+                                "link": "/menu/gohanmono/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "薬味・トッピング",
+                                "link": "/menu/topping/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "産地情報",
+                                "link": "/menu/production/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "アレルギー情報",
+                                "link": "/menu/allergic/",
+                                "target": false
+                            }
+                        ]
+                    },
+                    {
+                        "fieldId": "list",
+                        "head": [
+                            {
+                                "fieldId": "item",
+                                "title": "こだわり",
+                                "link": "/concept/",
+                                "target": false
+                            }
+                        ],
+                        "sub": [
+                            {
+                                "fieldId": "item",
+                                "title": "うどんへのこだわり",
+                                "link": "/concept/udon/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "麺職人たち",
+                                "link": "/concept/menshokunin/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "憧憬する風景",
+                                "link": "/concept/huukei/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "世界で親しまれる丸亀製麺",
+                                "link": "/concept/global/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "天ぷらのこだわり",
+                                "link": "/concept/tempura/",
+                                "target": false
+                            }
+                        ]
+                    },
+                    {
+                        "fieldId": "list",
+                        "head": [
+                            {
+                                "fieldId": "item",
+                                "title": "お店・サービス",
+                                "link": "/shop/",
+                                "target": false
+                            }
+                        ],
+                        "sub": [
+                            {
+                                "fieldId": "item",
+                                "title": "お店を探す",
+                                "link": "/shop/#shop-search",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "海外店舗",
+                                "link": "/shop/global_shops/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "公式アプリ",
+                                "link": "/shop/app/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "お持ち帰り",
+                                "link": "/shop/omochikaeri/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "モバイルオーダー",
+                                "link": "/shop/mobile_order/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "はじめての方へ",
+                                "link": "/shop/beginners/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "キャッシュレス決済",
+                                "link": "/shop/cashless/",
+                                "target": false
+                            }
+                        ]
+                    }
+                ],
+                "secondary": [
+                    {
+                        "fieldId": "list",
+                        "head": [],
+                        "sub": [
+                            {
+                                "fieldId": "item",
+                                "title": "会社情報",
+                                "link": "/company/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "サステナビリティ",
+                                "link": "/sustainability/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "正社員募集",
+                                "link": "https://toridoll-recruit.snar.jp/jobboard/detail.aspx?id=4PYUsZpLUOg",
+                                "target": true
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "アルバイト募集",
+                                "link": "https://toridoll-job.com/toridoll/brand/marugame.htm",
+                                "target": true
+                            }
+                        ]
+                    }
+                ],
+                "footer": [
+                    {
+                        "fieldId": "list",
+                        "head": [],
+                        "sub": [
+                            {
+                                "fieldId": "item",
+                                "title": "重要なお知らせ",
+                                "link": "/important/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "お知らせ一覧",
+                                "link": "/news/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "店舗情報",
+                                "link": "/shopinfo/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "プライバシーポリシー",
+                                "link": "/privacy/",
+                                "target": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            "footer_navigation": {
+                "fieldId": "footer_navigation",
+                "main": [
+                    {
+                        "fieldId": "list",
+                        "head": [
+                            {
+                                "fieldId": "item",
+                                "title": "メニュー",
+                                "link": "/menu/",
+                                "target": false
+                            }
+                        ],
+                        "sub": [
+                            {
+                                "fieldId": "item",
+                                "title": "うどん",
+                                "link": "/menu/udon/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "うどん弁当",
+                                "link": "/menu/udonbento/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "天ぷら",
+                                "link": "/menu/tempura/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "ご飯もの",
+                                "link": "/menu/gohanmono/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "薬味・トッピング",
+                                "link": "/menu/topping/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "産地情報",
+                                "link": "/menu/production/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "アレルギー情報",
+                                "link": "/menu/allergic/",
+                                "target": false
+                            }
+                        ]
+                    },
+                    {
+                        "fieldId": "list",
+                        "head": [
+                            {
+                                "fieldId": "item",
+                                "title": "こだわり",
+                                "link": "/concept/",
+                                "target": false
+                            }
+                        ],
+                        "sub": [
+                            {
+                                "fieldId": "item",
+                                "title": "うどんへのこだわり",
+                                "link": "/concept/udon/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "麺職人たち",
+                                "link": "/concept/menshokunin/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "憧憬する風景",
+                                "link": "/concept/huukei/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "世界で親しまれる丸亀製麺",
+                                "link": "/concept/global/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "天ぷらのこだわり",
+                                "link": "/concept/tempura/",
+                                "target": false
+                            }
+                        ]
+                    },
+                    {
+                        "fieldId": "list",
+                        "head": [
+                            {
+                                "fieldId": "item",
+                                "title": "店・サービス",
+                                "link": "/shop/",
+                                "target": false
+                            }
+                        ],
+                        "sub": [
+                            {
+                                "fieldId": "item",
+                                "title": "お店を探す",
+                                "link": "/shop/#shop-search",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "海外店舗",
+                                "link": "/shop/global_shops/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "公式アプリ",
+                                "link": "/shop/app/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "お持ち帰り",
+                                "link": "/shop/omochikaeri/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "モバイルオーダー",
+                                "link": "/shop/mobile_order/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "はじめての方へ",
+                                "link": "/shop/beginners/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "キャッシュレス決済",
+                                "link": "/shop/cashless/",
+                                "target": false
+                            }
+                        ]
+                    }
+                ],
+                "secondary": [
+                    {
+                        "fieldId": "list",
+                        "head": [],
+                        "sub": [
+                            {
+                                "fieldId": "item",
+                                "title": "会社情報",
+                                "link": "/company/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "サステナビリティ",
+                                "link": "/sustainability/",
+                                "target": false
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "正社員募集",
+                                "link": "https://toridoll-recruit.snar.jp/jobboard/detail.aspx?id=4PYUsZpLUOg",
+                                "target": true
+                            },
+                            {
+                                "fieldId": "item",
+                                "title": "アルバイト募集",
+                                "link": "https://toridoll-job.com/toridoll/brand/marugame.htm",
+                                "target": true
+                            }
+                        ]
+                    }
+                ],
+                "single": [
+                    {
+                        "fieldId": "item",
+                        "title": "重要なお知らせ",
+                        "link": "/important/",
+                        "target": false
+                    },
+                    {
+                        "fieldId": "item",
+                        "title": "お知らせ",
+                        "link": "/news/",
+                        "target": false
+                    },
+                    {
+                        "fieldId": "item",
+                        "title": "店舗情報",
+                        "link": "/shopinfo/",
+                        "target": false
+                    },
+                    {
+                        "fieldId": "item",
+                        "title": "プライバシーポリシー",
+                        "link": "/privacy/",
+                        "target": false
+                    }
+                ],
+                "corporate": [
+                    {
+                        "fieldId": "item",
+                        "title": "採用情報",
+                        "link": "https://www.toridoll.com/recruit/",
+                        "target": true
+                    },
+                    {
+                        "fieldId": "item",
+                        "title": "社会貢献活動",
+                        "link": "https://www.toridoll.com/csr/",
+                        "target": true
+                    },
+                    {
+                        "fieldId": "item",
+                        "title": "お問い合わせ",
+                        "link": "https://www.toridoll.com/contact/",
+                        "target": true
+                    },
+                    {
+                        "fieldId": "item",
+                        "title": "よくあるご質問",
+                        "link": "https://www.toridoll.com/faq/",
+                        "target": true
+                    }
+                ],
+                "company_name": "TORIDOLL",
+                "company_link": "https://www.toridoll.com/"
+            },
+            "social_links": {
+                "fieldId": "social_links",
+                "facebook": "https://www.facebook.com/marugame",
+                "twitter": "https://twitter.com/UdonMarugame",
+                "youtube": "https://www.youtube.com/channel/UCmlAeLv0l1c3ajaWTMKJljA",
+                "instagram": "https://www.instagram.com/marugame_/"
+            },
+            "copyright": "© 2022 TORIDOLL Holdings Corporation."
+        },
+        "breadcrumbs": [
+            {
+                "title": "トップ",
+                "url": "/"
+            },
+            {
+                "title": "メニュー"
+            }
+        ],
+        "statement": {
+            "createdAt": "2022-06-08T10:38:36.818Z",
+            "updatedAt": "2022-06-30T06:10:47.921Z",
+            "publishedAt": "2022-06-08T10:38:36.818Z",
+            "revisedAt": "2022-06-08T11:43:13.504Z",
+            "heading": "ここのうどんは\n生きている。",
+            "texts": [
+                {
+                    "fieldId": "text",
+                    "text": "丸亀製麺がお届けするうどんは、\n国内800を超えるすべての店で\n一軒、一軒、手間を惜しまず、\n毎日、100%国産の小麦粉から\n打っています。"
+                },
+                {
+                    "fieldId": "text",
+                    "text": "打ち立てのうどんにこだわり、\nその場で切って、茹でて、作りたてを\nお客様に提供しているからこそ、\nもちもちでおいしい独自の\n〝丸亀食感〟をお届けできています。"
+                }
+            ],
+            "image_pc": {
+                "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/7937cc54b4534b448929bae1cf4f2415/common-kodawari-statement_pc.jpg",
+                "height": 800,
+                "width": 1920
+            },
+            "image_sp": {
+                "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/afd1628aaa3b49a599ea1a7652854832/common-kodawari-statement_sp.jpg",
+                "height": 800,
+                "width": 750
+            },
+            "lead": "うどんで、\nあなたを\n驚かせたい。",
+            "button_label": "丸亀製麺のこだわり",
+            "link_path": "/concept/"
+        },
+        "isMobileHeaderInversion": true,
+        "content": {
+            "createdAt": "2022-04-12T03:57:56.669Z",
+            "updatedAt": "2022-09-28T05:35:33.431Z",
+            "publishedAt": "2022-05-25T12:01:36.155Z",
+            "revisedAt": "2022-08-29T15:00:03.163Z",
+            "meta": {
+                "fieldId": "meta",
+                "title": "メニュー",
+                "description": "丸亀製麺は全店に製麺機を置いて、打ち立て、茹でたての味を実現。 国産小麦100％にこだわった讃岐うどんのおいしさを、心ゆくまでご堪能ください。",
+                "image": {
+                    "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/d0a52dfafec6424695a72524a24ff06b/og_menu.jpg",
+                    "height": 630,
+                    "width": 1200
+                }
+            },
+            "header": {
+                "fieldId": "header",
+                "title": "メニュー",
+                "lead": "すべての店で、\n粉からつくる。\n打ち立て、\nできたての味を\n丸亀製麺で。",
+                "image": {
+                    "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/4dce7bc51a3942d4b970e0dc18a71699/tarutori_menu.jpg",
+                    "height": 400,
+                    "width": 1800
+                },
+                "image_sp": {
+                    "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/bac2686c86e9492ab301d7ae9b8881a4/tarutori_menu_SP.png",
+                    "height": 960,
+                    "width": 1280
+                }
+            },
+            "pickup_menu": {
+                "fieldId": "pickup_menu",
+                "heading": "おすすめ・\n限定メニュー"
+            },
+            "menu": {
+                "fieldId": "menuSection",
+                "categories": [
+                    {
+                        "fieldId": "category",
+                        "name": "うどん",
+                        "lead": "丸亀製麺は\n全店に製麺機を置いて\n打ち立て、茹でたての味を実現。",
+                        "lead_sp": "丸亀製麺は\n全店に製麺機を置いて\n打ち立て、\n茹でたての味を実現。",
+                        "image": {
+                            "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/b4e923e7663a438a956c42f03986995d/menu-udon-key_visual_pc.jpg",
+                            "height": 750,
+                            "width": 1500
+                        },
+                        "image_sp": {
+                            "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/70eff63e15854977a57366555949a09e/menu-udon-key_visual_sp.jpg",
+                            "height": 1000,
+                            "width": 702
+                        },
+                        "button_label": "うどん一覧を見る",
+                        "link": "/menu/udon/"
+                    },
+                    {
+                        "fieldId": "category",
+                        "name": "うどん弁当",
+                        "lead": "丸亀製麺ならではの\nできたてのおいしさを、\nお出かけ先やお家でもお楽しみください。",
+                        "lead_sp": "丸亀製麺ならではの\nできたてのおいしさを、\nお出かけ先やお家でも\nお楽しみください。",
+                        "image": {
+                            "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/68a7842d73044a519108bfcca2841b22/menu-bento-key_visual_pc.jpg",
+                            "height": 750,
+                            "width": 1500
+                        },
+                        "image_sp": {
+                            "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/0ccafc5324f54df4851a2cae1630bb89/menu-bento-key_visual_sp.jpg",
+                            "height": 1000,
+                            "width": 702
+                        },
+                        "button_label": "うどん弁当一覧を見る",
+                        "link": "/menu/udonbento/"
+                    },
+                    {
+                        "fieldId": "category",
+                        "name": "天ぷら",
+                        "lead": "だしの相性にこだわった天ぷらは、\nうどんのおいしさを\n引き立てる最高の相棒。",
+                        "lead_sp": "だしの相性に\nこだわった天ぷらは、\nうどんのおいしさを\n引き立てる最高の相棒。",
+                        "image": {
+                            "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/9f6ac5a76e7e428a9bbdae8e482ac505/menu-tempra-key_visual_pc.jpg",
+                            "height": 750,
+                            "width": 1500
+                        },
+                        "image_sp": {
+                            "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/a35f74ba7a7d4f118e56fdb621930d12/menu-tempra-key_visual_sp.jpg",
+                            "height": 1000,
+                            "width": 702
+                        },
+                        "button_label": "天ぷら一覧を見る",
+                        "link": "/menu/tempura/"
+                    },
+                    {
+                        "fieldId": "category",
+                        "name": "薬味・\nトッピング",
+                        "lead": "お好みの味にカスタマイズ。\n自由なアレンジで、\n自分だけの味を見つけてください。",
+                        "lead_sp": "お好みの味にカスタマイズ。\n自由なアレンジで、\n自分だけの味を\n見つけてください。",
+                        "image": {
+                            "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/8758a2b2b88d4d089f798c97322809e7/menu-yakumi-key_visual_pc.jpg",
+                            "height": 750,
+                            "width": 1500
+                        },
+                        "image_sp": {
+                            "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/e425c71ebfa748fbb9c68d0f972a8844/menu-yakumi-key_visual_sp.jpg",
+                            "height": 1000,
+                            "width": 702
+                        },
+                        "button_label": "薬味・トッピング一覧を見る",
+                        "link": "/menu/topping/"
+                    },
+                    {
+                        "fieldId": "category",
+                        "name": "ご飯もの",
+                        "lead": "国産米をふっくら炊き上げました。\nのりの風味が香るおむすびは、\n4種類の味をお楽しみいただけます。",
+                        "lead_sp": "国産米をふっくら炊き上げました。\nのりの風味が香るおむすびは、\n4種類の味を\nお楽しみいただけます。",
+                        "image": {
+                            "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/f61128d41a2b45e29f321efa9b8be122/menu-gohanmono-key_visual_pc.jpg",
+                            "height": 750,
+                            "width": 1500
+                        },
+                        "image_sp": {
+                            "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/2f887c856a3f4ee9b643bb53ebc5b4eb/menu-gohanmono-key_visual_sp.jpg",
+                            "height": 1000,
+                            "width": 702
+                        },
+                        "button_label": "ご飯もの一覧を見る",
+                        "link": "/menu/gohanmono/"
+                    }
+                ]
+            },
+            "relations": [
+                {
+                    "fieldId": "item",
+                    "image": {
+                        "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/b65ee3a410564b4a9fcd74d14e63588a/menu-beginner.jpg",
+                        "height": 309,
+                        "width": 642
+                    },
+                    "subtitle": "はじめての方へ",
+                    "title": "お店での注文方法",
+                    "link": "/shop/beginners/"
+                },
+                {
+                    "fieldId": "item",
+                    "image": {
+                        "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/465a6e23d99a464aaf2a1ed4e3e59a1a/menu-takeout.jpg",
+                        "height": 309,
+                        "width": 642
+                    },
+                    "subtitle": "本物のおいしさをご家庭でも",
+                    "title": "うどん・天ぷらのお持ち帰り方法",
+                    "link": "/shop/omochikaeri/"
+                }
+            ],
+            "links": [
+                {
+                    "fieldId": "link",
+                    "label": "産地情報",
+                    "link": "/menu/production/"
+                },
+                {
+                    "fieldId": "link",
+                    "label": "アレルギー情報",
+                    "link": "/menu/allergic/"
+                }
+            ],
+            "notes": [
+                {
+                    "fieldId": "note",
+                    "note": "商品の価格は全て税込みです。店舗により、メニュー内容や価格が異なる場合がございます。また、店舗の状況により、一部商品の販売を中止させていただく場合がございます。  "
+                },
+                {
+                    "fieldId": "note",
+                    "note": "税込価格は、店内飲食でもお持ち帰りでも同一価格となります。"
+                },
+                {
+                    "fieldId": "note",
+                    "note": "うどん弁当を除くうどん、及び丼のお持ち帰りの場合、表示価格に加えて容器代30円を頂戴します。レシートには容器代込みの価格が印字されます。"
+                },
+                {
+                    "fieldId": "note",
+                    "note": "お持ち帰り商品は2時間を目安にお早めにお召し上がりください。"
+                },
+                {
+                    "fieldId": "note",
+                    "note": "国産米を使用しております。"
+                }
+            ]
+        },
+        "pickupMenu": [
+            {
+                "id": "qyw4k35anm4",
+                "createdAt": "2022-08-21T00:24:33.718Z",
+                "updatedAt": "2022-09-20T01:20:37.834Z",
+                "publishedAt": "2022-08-23T00:55:24.554Z",
+                "revisedAt": "2022-08-30T21:50:09.452Z",
+                "title": "今年も大好評販売中！",
+                "href": "/menu/tarutoritenbukkake/",
+                "thumbnail": {
+                    "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/b52a115bd89b4e0f8c9d716e107705f7/tarutori_TOP%E3%83%8F%E3%82%99%E3%83%8A%E3%83%BC_%E6%9C%AC%E7%95%AA%E6%9C%9F.jpg",
+                    "height": 576,
+                    "width": 432
+                },
+                "has_border": false
+            },
+            {
+                "id": "ms1xc3536_tm",
+                "createdAt": "2022-08-28T23:32:05.641Z",
+                "updatedAt": "2022-09-29T10:24:01.753Z",
+                "publishedAt": "2022-08-29T04:34:13.577Z",
+                "revisedAt": "2022-09-29T10:24:01.753Z",
+                "title": "チームタルトリアン",
+                "href": "/campaign/teamtarutorian/",
+                "thumbnail": {
+                    "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/baa820f16f41414688914ebdb3b929d6/432_576.png",
+                    "height": 576,
+                    "width": 432
+                },
+                "has_border": false
+            },
+            {
+                "id": "ikdls85krnn",
+                "createdAt": "2022-09-27T07:05:44.606Z",
+                "updatedAt": "2022-10-02T23:51:25.580Z",
+                "publishedAt": "2022-09-28T05:20:58.508Z",
+                "revisedAt": "2022-10-02T23:51:25.580Z",
+                "title": "神戸牛の旨みたっぷり",
+                "href": "https://jp.marugame.com/menu/koubegyuumadashiudon/",
+                "thumbnail": {
+                    "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/b4852832336f41a8b73677b68d19aa65/%E6%9C%AC%E5%91%8A.jpg",
+                    "height": 1633,
+                    "width": 1225
+                },
+                "has_border": false
+            },
+            {
+                "id": "5dkfk8ll3zyb",
+                "createdAt": "2022-06-05T16:43:03.704Z",
+                "updatedAt": "2022-10-01T15:00:03.173Z",
+                "publishedAt": "2022-06-05T16:43:03.704Z",
+                "revisedAt": "2022-10-01T15:00:03.173Z",
+                "title": "製麺所ならではの、茹でたて",
+                "href": "/menu/kamaageudon/",
+                "thumbnail": {
+                    "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/519b3c51dc4a417989a62ea8b324c5b5/%E9%87%9C%E6%8F%9A%E3%81%92%E3%81%86%E3%81%A9%E3%82%93_TOP%E7%94%A8.jpg",
+                    "height": 576,
+                    "width": 432
+                },
+                "has_border": false
+            },
+            {
+                "id": "bqp707tqhj",
+                "createdAt": "2022-06-05T16:42:16.983Z",
+                "updatedAt": "2022-08-30T21:50:34.753Z",
+                "publishedAt": "2022-06-05T16:42:16.983Z",
+                "revisedAt": "2022-08-30T02:00:03.474Z",
+                "title": "丸亀食感をご家庭、職場でも！",
+                "href": "/menu/marugameudonbento/",
+                "thumbnail": {
+                    "url": "https://images.microcms-assets.io/assets/58eb40d284924aeb96de2de93fa08d93/a4c5a9dc53ce4dce8c10cdd0f567119e/2208_udonbento_TOP%E3%83%8F%E3%82%99%E3%83%8A%E3%83%BCSP%E7%94%A8.jpg",
+                    "height": 576,
+                    "width": 432
+                },
+                "has_border": false
+            }
+        ]
+    },
+    "__N_SSG": true
+}
