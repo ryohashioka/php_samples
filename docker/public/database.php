@@ -13,7 +13,7 @@
   <p>
     <?php
       if(isset($_ENV['DB_HOST']) && isset($_ENV['DB_NAME']) && isset($_ENV['DB_USER'])) {
-        $dsn = 'mysql:dbname=' . $_ENV['DB_NAME'] . ';host=' . $_ENV['DB_HOST'] . ';charset=utf8mb4';
+        $dsn = 'pgsql:dbname=' . $_ENV['DB_NAME'] . ';host=' . $_ENV['DB_HOST'] . ';charset=utf8mb4';
         $user = $_ENV['DB_USER'];
         $password = $_ENV['DB_PASSWORD'];
 
