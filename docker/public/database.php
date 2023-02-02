@@ -12,20 +12,20 @@
   <div>USER: <?php echo $_ENV['DB_USER'] ?? 'NO_NAME'; ?></div>
   <p>
     <?php
-      if(isset($_ENV['DB_HOST']) && isset($_ENV['DB_NAME']) && isset($_ENV['DB_USER'])) {
-        $dsn = 'pgsql:dbname=' . $_ENV['DB_NAME'] . ';host=' . $_ENV['DB_HOST'] . ';charset=utf8mb4';
-        $user = $_ENV['DB_USER'];
-        $password = $_ENV['DB_PASSWORD'];
+      $host = $_ENV['DB_HOST'] ?? 'localhost';
+      $port = $_ENV['DB_PORT'] ?? '5432';
+      $dbName = $_ENV['DB_NAME'] ?? 'db';
 
-        try {
-          $pdo = new PDO($dsn, $user, $password);
-          echo 'データベースの接続に成功しました。';  
-        } catch (PDOException $e) {
-          echo 'データベース接続中にエラーが発生しました。';
-          echo '<div style="color:red;">' . $e->getMessage() . '</div>';
-        }
-      } else {
-        echo '接続情報が足りません。';
+      $dsn = 'pgsql:dbname=' . $dbName . ';host=' . $host . ';port=' . $port;
+      $user = $_ENV['DB_USER'] ?? 'root';
+      $password = $_ENV['DB_PASSWORD'] ?? '';
+
+      try {
+        $pdo = new PDO($dsn, $user, $password);
+        echo 'データベースの接続に成功しました。';  
+      } catch (PDOException $e) {
+        echo 'データベース接続中にエラーが発生しました。';
+        echo '<div style="color:red;">' . $e->getMessage() . '</div>';
       }
     ?>
   </p>
